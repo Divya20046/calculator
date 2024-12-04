@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <script src="calculator.js"></script>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <div class="history"></div>
+        <div class="result"></div>
+        <div class="mini-class">
+            <hr>
+            <div class="first">
+            <button type="button" id="button" onclick="clearr()">C</button>
+            <button type="button" id="button" onclick="calci('sq')">x&sup2;</button>
+            <button type="button" id="button" onclick="calci('%')">%</button>
+            <button type="button" id="close" onclick="deletee()">&#x2715;</button>
+            </div>
+            <div class="second">
+            <button type="button" id="button" onclick="calci(1)">1</button>
+            <button type="button" id="button" onclick="calci(2)">2</button>
+            <button type="button" id="button" onclick="calci(3)">3</button>
+            <button type="button" id="button" onclick="calci('+')">+</button>
+            </div>
+            <div class="third">
+                <button type="button" id="button" onclick="calci(4)">4</button>
+                <button type="button" id="button" onclick="calci(5)">5</button>
+                <button type="button" id="button" onclick="calci(6)">6</button>
+                <button type="button" id="button" onclick="calci('-')">-</button>
+            </div>
+            <div class="fourth">
+                    <button type="button" id="button" onclick="calci(7)">7</button>
+                    <button type="button" id="button" onclick="calci(8)">8</button>
+                    <button type="button" id="button" onclick="calci(9)">9</button>
+                    <button type="button" id="button" onclick="calci('*')">*</button>
+            </div>
+            <div class="fifth">
+                <button type="button" id="button" onclick="calci(0)">0</button>
+                <button type="button" id="button" onclick="calci('root')">&radic;</button>
+                <button type="button" id="button" onclick="calci('/')">/</button>
+                <button type="button" id="button" onclick="calculate()">=</button>
+                </div>
+        </div>
+    </div>
+   
+</body>
+</html>

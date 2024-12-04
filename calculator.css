@@ -1,0 +1,50 @@
+h1{
+    margin-left:525px;
+    margin-right:400px;
+    margin-top:30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    border: 1px solid black;
+    margin-left:450px;
+    margin-right:400px;
+    margin-top:50px;
+    background-color:whitesmoke;
+}
+.history{
+    display: flex;
+    justify-content: flex-end;
+    align-items: last baseline;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.result
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: last baseline;
+    height: 70px;
+    width: 100%;
+    font-size: 40px;
+    margin-right: 20px;
+   
+}
+#button{
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    font-size: larger;
+}
+#close{
+    color: red;
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    font-size:larger;
+}
